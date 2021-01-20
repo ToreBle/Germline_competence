@@ -1,5 +1,4 @@
 # Enhancer-associated H3K4 methylation safeguards in vitro germline competence
-This repository contains scripts that were used for the investigation of germline competence: [bioRxiv](https://www.biorxiv.org/content/10.1101/2020.07.07.192427v1)
 
 # Summary
 Germline specification in mammals occurs through an inductive process whereby competent cells in the post-implantation epiblast differentiate into primordial germ cells (PGC). The intrinsic factors that endow epiblast cells with the competence to respond to germline inductive signals remain unknown. Single-cell RNA sequencing across multiple stages of an in vitro PGC-like cells (PGCLC) differentiation system shows that PGCLC genes initially expressed in the naïve pluripotent stage become homogeneously dismantled in germline competent epiblast like-cells (EpiLC). In contrast, the decommissioning of enhancers associated with these germline genes is incomplete. Namely, a subset of these enhancers partly retain H3K4me1, accumulate less heterochromatic marks and remain accessible and responsive to transcriptional activators. Subsequently, as in vitro germline competence is lost, these enhancers get further decommissioned and lose their responsiveness to transcriptional activators. Importantly, using H3K4me1 deficient cells, we show that the loss of this histone modification reduces the germline competence of EpiLC and decreases PGCLC differentiation efficiency. Our work suggests that, although H3K4me1 might not be essential for enhancer function, it can facilitate the (re)activation of enhancers and the establishment of gene expression programs during specific developmental transitions.
@@ -7,6 +6,15 @@ Germline specification in mammals occurs through an inductive process whereby co
 <p align="center">
 <img src="image/Model_Germline_competence.png" width="750" align="center">
 </p>
+
+*Model illustrating the partial decommissioning of PGCLC enhancers during PGCLC differentiation. Most of the PGCLC enhancers are already active in ESC (i.e. high H3K27ac and H3K4me1/2 levels). Upon differentiation into EpiLC and EpiSC, these enhancers progressively lose these active histone modifications, albeit with different temporal dynamics:
+- H3K27ac and H3K4me2 are rapidly lost and are already low germline competent EpiLC*
+*- H3K4me1 partially persist in EpiLC and is significantly lower in EpiSC.
+On the other hand, repressive epigenetic features, such as H3K9me3 and CpG methylation, start accumulating within the PGCLC enhancers already in EpiLC, but they increase even further in EpiSC.*
+
+<br/>
+<br/>
+In the following folders scripts are depsoited that were used for the investigation of germline competence: [bioRxiv](https://www.biorxiv.org/content/10.1101/2020.07.07.192427v1)
 
 ## Content
 * `/scRNAseq/`: Analysis of the single-cell RNA-seq data of the PGCLC differentiation
