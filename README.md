@@ -1,5 +1,5 @@
 # Enhancer-associated H3K4 methylation safeguards in vitro germline competence
-In the following folders scripts are depsoited that were used for the investigation of germline competence: [bioRxiv](https://www.biorxiv.org/content/10.1101/2020.07.07.192427v1)
+In the following folders scripts are depsoited that were used for the investigation of germline competence: [bioRxiv](https://www.biorxiv.org/content/10.1101/2020.07.07.192427v2)
 
 # Summary
 Germline specification in mammals occurs through an inductive process whereby competent cells in the post-implantation epiblast differentiate into primordial germ cells (PGC). The intrinsic factors that endow epiblast cells with the competence to respond to germline inductive signals remain unknown. Single-cell RNA sequencing across multiple stages of an *in vitro* PGC-like cells (PGCLC) differentiation system shows that PGCLC genes initially expressed in the naïve pluripotent stage become homogeneously dismantled in germline competent epiblast like-cells (EpiLC). In contrast, the decommissioning of enhancers associated with these germline genes is incomplete. Namely, a subset of these enhancers partly retain H3K4me1, accumulate less heterochromatic marks and remain accessible and responsive to transcriptional activators. Subsequently, as *in vitro* germline competence is lost, these enhancers get further decommissioned and lose their responsiveness to transcriptional activators. Importantly, using H3K4me1 deficient cells, we show that the loss of this histone modification reduces the germline competence of EpiLC and decreases PGCLC differentiation efficiency. Our work suggests that, although H3K4me1 might not be essential for enhancer function, it can facilitate the (re)activation of enhancers and the establishment of gene expression programs during specific developmental transitions.
@@ -12,11 +12,11 @@ Germline specification in mammals occurs through an inductive process whereby co
 
 
 ## Content
-* `/scRNAseq/`: Analysis of the single-cell RNA-seq data of the PGCLC differentiation
-* `/PGCLC_enhancer/`: Definition of EpiLC, EpiSC and PGCLC enhancers
-* `/Competence/`: Comparative ChIP-seq analysis for germline competence
-* `/H3K4me1_deficiency/`: Analysis of the single-cell RNA-seq data of the Mll3/4 dCD PGCLC
-* `/Heterogeneity/`: Analysis of the DNA methylation heterogeneity using [scNMT data](https://doi.org/10.1038/s41586-019-1825-8)
+* `/scRNAseq_PGCLC_differentiation/`: Analysis of the single-cell RNA-seq data of the PGCLC differentiation
+* `/Enhancer_definition/`: Assignment of EpiLC, EpiSC and PGCLC enhancers
+* `/Germline_Competence/`: Comparative ChIP-seq analysis for germline competence
+* `/scRNA_seq_dCD/`: Analysis of the single-cell RNA-seq data of the H3K4me1-deficient dCD d4 EB
+* `/Heterogeneity/`: CpG methylation heterogeneity anaylsis for PGCLC enhancer using [scNMT data](https://doi.org/10.1038/s41586-019-1825-8)
 
 ## Data
 All data from the different stages of PGCLC differentiation have been deposited in the [GEO database](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE155089) under the follwoing accession numbers:
