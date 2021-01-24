@@ -14,7 +14,7 @@ Germline specification in mammals occurs through an inductive process whereby co
 ## Content
 * `/scRNAseq_PGCLC_differentiation/`: Analysis of the single-cell RNA-seq data of the PGCLC differentiation
 * `/Enhancer_definition/`: Assignment of EpiLC, EpiSC and PGCLC enhancers
-* `/Germline_competence/`: Comparative ChIP-seq analysis for germline competence
+* `/Epigenetic_comparision/`: Comparative ChIP-seq analysis for germline competence
 * `/scRNAseq_dCD/`: Analysis of the single-cell RNA-seq data of the H3K4me1-deficient dCD d4 EB
 * `/Heterogeneity/`: CpG methylation heterogeneity anaylsis for PGCLC enhancer using [scNMT data](https://doi.org/10.1038/s41586-019-1825-8)
 
