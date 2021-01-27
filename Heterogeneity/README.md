@@ -9,3 +9,4 @@ Content
 * `diss_scM_Epiblast_ENHANCER.Rdata` : Output of the `Dissimilarity_matrices.R` containing the dissimilarity matrix for the for all CpGs of the ENHANCERS
 * `DNAmethylation_Heterogeneity_scMT.R`: R-script for the mCpG methylation heterogeneity
 * `GSE121650_rna_counts.tsv`: single-cell RNA-seq count matrix of the scNMT data
+* `scMethylation_Transcription.R`: single-cell transcriptomes and DNA methylation analysis
